@@ -3,7 +3,7 @@
   <OwnedComments>
     <Cmt Name="Dev" />
     <Cmt Name="LcxAdmin" />
-    <Cmt Name="Rccx" />
+    <Cmt Name="Rccx -- lfs test.01" />
   </OwnedComments>
   <Settings Name="@ParserSettingsPath@\Sql_parser.lsconfig" Type="Config" />
   <Item ItemId=";Managed Resources" ItemType="0" PsrId="211" Leaf="true">
