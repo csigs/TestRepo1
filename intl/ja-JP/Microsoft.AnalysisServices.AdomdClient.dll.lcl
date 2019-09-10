@@ -1,0 +1,1659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="d:\dbs\sh\uikp\0320_020037_0\cmd\6\obj\x86retail\sql\picasso\objectmodels\projects\adomdp\microsoft.analysisservices.adomdclient.csproj\Microsoft.AnalysisServices.AdomdClient.dll" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="ja-JP" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev -- ja-JP 2nd test" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@ParserSettingsPath@\Sql_parser.lsconfig" Type="Config" />
+  <Item ItemId=";Managed Resources" ItemType="0" PsrId="211" Leaf="true">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+  </Item>
+  <Item ItemId=";Microsoft.AnalysisServices.AdomdClient.ASAzureSecurityConfig.xml" ItemType="0" PsrId="210" Leaf="true">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" Path=" \ ;XML \ 0 \ 0" />
+  </Item>
+  <Item ItemId=";Microsoft.AnalysisServices.AdomdClient.SR.resources" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" Path=" \ ;Managed Resources \ 0 \ 0" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" LocTbl="false" />
+      <Item ItemId=";ArgumentErrorInvalidSchemaObjectType" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The schemaObjectType parameter should be a valid SchemaObjectType value.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="schemaObjectType", "SchemaObjectType"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ArgumentErrorUniqueNameEmpty" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The uniqueName parameter should not be empty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="uniqueName"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ArgumentErrorUnsupportedParameterType" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Command parameter values of type '{0}' are not supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";CellIndexer_IndexOutOfRange" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The index for axis '{0}' is out of range. It must be greater than or equal to '0' and less than '{1}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";CellIndexer_InvalidIndexType" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The index type for axis '{0}' is not valid. The index must be an integer.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";CellIndexer_InvalidNumberOfAxesIndexers" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The number of axis indexers is not valid: '{0}' axes are present, and an attempt was made to index by '{1}' axes.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";CellSet_InvalidStateOfReader" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The State property of the input XMLReader object is not valid: '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Cellset_propertyIsUnknown" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The provider did not return the '{0}' property.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Collection_IsReadOnly" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The collection is read-only. The properties in it cannot be modified.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Command_CommandStreamDoesNotSupportReadingFrom" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The CommandStream property cannot be set to a stream that does not support read operations.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "CommandStream"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Command_CommandTextCommandStreamBothSet" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Both the CommandText and CommandStream properties are set. Only one property can be set.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "CommandText", "CommandStream"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Command_CommandTextCommandStreamNotSet" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Neither the CommandText property nor the CommandStream property is set.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "CommandText", "CommandStream"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Command_ConnectionIsNotOpened" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection is not open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Command_ConnectionIsNotSet" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Connection property was not set on the Command object.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Command_InvalidTimeout" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The value of the Timeout property on the Command object, '{0}', is not valid.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Command_OnlyActiveTransactionCanBeAssigned" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The transaction cannot be assigned because the transaction has been completed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Command_OnlyAdomdTransactionObjectIsSupported" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The object cannot be assigned because its type is not AdomdTransaction.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="AdomdTransaction"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Command_OnlyTransactionAssociatedWithTheSameConnectionCanBeAssigned" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The transaction cannot be assigned because the connection object associated with the transaction and the connection object associated with the command are different.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_ConnectionString_NotInitialized" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The ConnectionString property has not been initialized.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "ConnectionString"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_ConnectionToLocalServerNotSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connections to the server context that is currently active are not supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_DatabaseNameEmpty" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The database name cannot be empty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_EffectiveUserNameEmpty" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The effective user name cannot be empty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_FailedToSetProperty" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' property cannot be set to '{1}'. Ensure that the property is writable.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_InvalidProperty" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The server did not return the '{0}' property.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_NoInformationAboutDataSourcesReturned" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The provider either did not return any data sources, or it did not return a value for the DataSourceInfo property.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "DataSourceInfo"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_PropertyNameEmpty" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property name cannot be empty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_SessionID_SessionIsAlreadyOpen" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The SessionID property cannot be set after the connection is open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "SessionID"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_ShowHiddenObjects_ConnectionAlreadyOpen" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The ShowHiddenObjects property cannot be set after the connection is open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="ShowHiddenObjects"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DatasetResponse_HierarchyWithSameNameOnSameAxis" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' hierarchy appears more than once on the '{1}' axis.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ICollection_CannotCopyToMultidimensionalArray" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The collection elements cannot be copied to a multidimensional array.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ICollection_ItemWithThisNameDoesNotExistInTheCollection" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The item with the name specified does not exist in the collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ICollection_NotEnoughSpaceToCopyTo" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Not enough space is available in the array to which the collection elements are being copied. Available: '{0}'. Required: '{1}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Indexer_ObjectNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' object was not found.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";InvalidArgument" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid argument.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidOperationPriorToFetchAllProperties" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The operation is not valid because of the current state of the object. You can use the FetchAllProperties method to retrieve the data necessary from the server to enable this operation.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "FetchAllProperties"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Member_MissingDisplayInfo" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The DisplayInfo property is missing from the data set returned by the provider.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "DisplayInfo"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Member_MissingLevelDepth" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The LevelDepth property is missing from the data set returned by the provider.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "LevelDepth"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Member_MissingLevelName" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The LevelUniqueName property is missing from the data set returned by the provider.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "LevelUniqueName"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";MetadataCache_Abandoned" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This object belongs to a metadata cache that is out of date. The object should no longer be used.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Metadata_CubeHasbeenUpdated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' cube has been updated on the server.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Metadata_CubesCollectionHasbeenUpdated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Cubes collection has been updated on the server.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Metadata_MiningServicesCollectionHasbeenUpdated" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The MiningServices collection has been updated on the server.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "MiningServices"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";NotSupportedByProvider" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The method specified is not supported by the current provider.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NotSupportedOnNonCellsetMember" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified method is not supported on Member objects that are not part of a cellset.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NotSupportedWhenConnectionMissing" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The method specified is not supported because the object has no associated connection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Parameter_Already_Exists" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' parameter already exists in the collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Parameter_Parent_Mismatch" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The parameter already belongs to another collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Parameter_Value_Wrong_Type" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The value must be of type AdomdParameter.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "AdomdParameter"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Property_Already_Exists" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property already exists in the collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Property_DoesNotExist" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property does not exist in the collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Property_Key_Wrong_Type" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The key is of an unexpected type.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Property_Parent_Mismatch" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property already belongs to another collection.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Property_PropertyNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property was not found: '{0}’.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Property_UnknownProperty" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' property is not recognized.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Property_Value_Wrong_Type" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The value must be of type AdomdProperty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "AdomdProperty"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Restrictions_TypesMismatch" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A type mismatch occurred for the '{0}' restriction. '{1}' was expected, but '{2}' was supplied.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}", "{2}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Resultset_IsNotDataset" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The result set returned by the server is not a cellset or a multidimensional data set.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Schema_InvalidGuid" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The GUID provided is not a valid schema rowset GUID.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Schema_PropertyIsMissingOrOfAnUnexpectedType" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The value of the '{0}' property in the '{1}' schema is either missing or of an unexpected type.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Schema_RestOutOfRange" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The number of restrictions is out of range.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Schema_UnexpectedResponseForSchema" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The format of the response is unexpected for the ‘{0}’ schema.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Server_IsAlreadyConnected" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A connection is already open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Server_IsNotConnected" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection is not open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Server_NoServerName" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The DataSource string is not valid.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "DataSource"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";TransactionAlreadyComplete" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The transaction is already complete.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+  <Item ItemId=";Microsoft.AnalysisServices.AdomdClient.XmlaSR.resources" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" Path=" \ ;Managed Resources \ 0 \ 0" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" LocTbl="false" />
+      <Item ItemId=";AfterExceptionAllTagsShouldCloseUntilMessagesSection" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The server response format is unexpected. All tags between an Exception element and the Messages section must be closed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";AlreadyConnected" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The client is already connected.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Auth_AcquireTokenFailure" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to obtain authentication token using the credentials provided.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Auth_InteractiveLoginRequired" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to obtain authentication token using the credentials provided. If your Active Directory tenant administrator has configured Multi-Factor Authentication or if your account is a Microsoft Account, please remove the user name and password from the connection string, and then retry. You should then be prompted to enter your credentials.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_AsAzure_OnlySspiOrClaimsTokenSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: AS Azure connections support only SSPI or ClaimsToken integrated security.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_ClaimsToken_AdalError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Microsoft.IdentityModel.Clients.ActiveDirectory failed with error: '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_ClaimsToken_AdalLoadingError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Microsoft.IdentityModel.Clients.ActiveDirectory failed to load '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_ClaimsToken_AuthorityNotFound" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Authority is not found for ClaimsToken integrated security (either valid Identity Provider or valid AS Azure data source is requierd).]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_ClaimsToken_IdentityProviderFormatInvalid" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Identity Provider format is invalid for ClaimsToken, expected format: <AAD authority url>[,<AAD application id>]5D;.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_ClaimsToken_UserIdAndPasswordRequired" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: User ID and Password are required when user interface is not available.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Failed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_MsoID_InternalError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in failed because an internal error occurred in Microsoft Online Services Sign In Assistant.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_MsoID_InvalidCredentials" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in failed because the user ID or password is incorrect.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_MsoID_MissingSignInAssistant" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in failed because a component used for this purpose (msoidcli.dll) was not found on your computer. Please verify that Microsoft Online Services Sign In Assistant is installed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_MsoID_SsoFailed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Online Services Sign In Assistant could not sign you in.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_MsoID_SsoFailedNonDomainUser" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Single sign-on failed because the user is not a valid account in Windows domain.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_PbiDedicated_OnlyClaimsTokenSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: PBI Dedicated connections support only ClaimsToken integrated security.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Sspi_FlagNotEstablished" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: The '{0}' SSPI flag cannot be established with the server.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Authentication_Sspi_PackageDoesntSupportCapability" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: The '{0}' SSPI package does not support '{1}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Authentication_Sspi_PackageNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: The '{0}' SSPI package is not supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Authentication_Sspi_SchannelAnonymousAmbiguity" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Impersonation Level set to 'Anonymous' implies that Certificate would not be provided in the connection string.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Sspi_SchannelCantDelegate" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Schannel does not support 'Delegate' impersonation level.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Sspi_SchannelSupportsOnlyPrivacyLevel" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Schannel supports only 'Privacy' protection level.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Sspi_SchannelUnsupportedImpersonationLevel" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Unsupported impersonation level for Schannel.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Authentication_Sspi_SchannelUnsupportedProtectionLevel" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication failed: Unsupported protection level for Schannel.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Cancel_SessionIDNotSpecified" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The SessionID property was not specified.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "SessionID"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";CannotConnect" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A connection cannot be made. Ensure that the server is running.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";CannotConnectToRedirector" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A connection cannot be made to redirector. Ensure that 'SQL Browser' service is running.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Compression_InitializationFailed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Compression initialization failed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connect_RedirectorDidntReturnDatabaseInfo" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection cannot be opened because the redirector service did not provide required database information.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionBroken" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection either timed out or was lost.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionCannotBeUsedWhileXmlReaderOpened" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection cannot be used while an XmlReader object is open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "XmlReader"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_ASAzure_FetchLinkReferenceFailed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link file at URI '{0}' could not be fetched.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_ASAzure_InvalidLinkReferenceCustomPort" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link URI '{0}' is invalid. Custom HTTPs port cannot be specified in the URI.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_ASAzure_InvalidLinkReferenceUri" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The link file content at URL '{0}' is not in the correct format. It needs to start with 'asazure://'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_AsAzure_DataSourcePathMoreThanOneSegment" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid data source format for AS Azure connections. The data source is expected in the following format: "asazure://[domain]5D;/[servername]5D;".]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_AsAzure_SspiAndUseAdalCacheTogetherNotSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For AS Azure connections, if 'Integrated Security' connection string property is set to 'SSPI' then 'UseADALCache' connection string property cannot be specified.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_DataSourceNotSpecified" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A data source must be specified in the connection string.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_DataSourceTypeDoesntSupportQuery" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The data source type doesn't support query parameters.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_ExpectedEqualSignNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An equal sign was expected after index {0} in the connection string.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_ExpectedSemicolonNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A semicolon was expected at index {0} in the connection string.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_ExternalConnectionIsIncomplete" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The required '{0}' property is missing from the connection string for External Model access.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_Invalid" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection string is not valid.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidCharInPropertyName" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' character (at index {1} in the connection string) cannot appear in a property name.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidCharInUnquotedPropertyValue" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property value containing the '{0}' character (at index {1} in the connection string) must be enclosed in quotation marks.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidIdentityProviderForIntegratedSecurityFederated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The identity provider you specified cannot be used when integrated security is set to federated.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidImpersonationLevelForHttp" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The impersonation level '{0}' is not supported for HTTP connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidImpersonationLevelForHttps" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The impersonation level '{0}' is not supported for HTTPS connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidIntegratedSecurityForHttpOrHttps" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The integrated security '{0}' is not supported for HTTP or HTTPS connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidIntegratedSecurityForNative" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The integrated security '{0}' is not supported for native connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidPropertyNameFormat" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' property name is not formatted correctly.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidProtectionLevelForHttp" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The protection level '{0}' is not supported for HTTP connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_InvalidProtectionLevelForHttps" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The protection level '{0}' is not supported for HTTPS connections.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileCannotDelegate" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If Kerberos delegation is not configured, the allowDelegation flag should be turned on.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileCannotRevert" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to revert to the process identity.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileDownloadError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Could not download connection file '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileDupEffectiveUsername" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If Kerberos delegation is not configured, the EffectiveUserName property in the connection string must be the same as the impersonated user.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileInvalidServer" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[BISM connection files cannot reference other BISM connection files. To continue, specify a tabular database that is deployed to an Analysis Services instance running in tabular mode.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_LinkFileParseError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection file is either not well formed or is larger than the allowed maximum of {0} characters.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_MissingIdentityProviderForIntegratedSecurityFederated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in failed because the identity provider property is missing. This property is required when integrated security is set to federated.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_MissingPassword" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connection string is missing a password property.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_OpenedQuoteIsNotClosed" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The opening quotation mark (at index {1} in the connection string) requires a closing quotation mark.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_PbiDedicated_MissingInitialCatalog" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection string for PBI dedicated connections requires the 'Initial Catalog' property to be specified.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_PbiDedicated_MissingRestrictCatalog" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection string for PBI dedicated connections requires the 'Restrict Catalog' property to be specified with a value of 'true'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_PbiDedicated_WrongIntendedUsage" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection string for PBI dedicated connections has an incorrect value for the 'Intended Usage' property; Valid values are 'default' or 'processing'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_PropertyNameNotDefined" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The property name is not defined before the equal sign (at index {0} in the connection string).]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ConnectionString_PropertyNotApplicableWithTheDataSourceType" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' connection string property is not applicable for the specified data source type.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ConnectionString_UnsupportedPropertyValue" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The value '{1}' is not supported for the connection string property '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{1}", "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Connection_AnalysisServicesInstanceWasMoved" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Analysis Services instance you are connecting to has moved. Please reconnect.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Connection_WorkbookIsOutdated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection to the current workbook has been closed because a newer version of the workbook exists in SharePoint. To continue, reopen the workbook to get the newer version.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DataReaderClosedError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The data reader object is closed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DataReaderInvalidRowError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The data reader object is not positioned at a valid row.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DataReader_IndexOutOfRange" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The index within the row from which to begin the read operation is out of range.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Decompression_Failed" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decompression of data failed. Compressed data size: {0}. Expected decompressed data size: {1}. Actual decompressed data size: {2}.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}", "{2}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Decompression_InitializationFailed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decompression initialization failed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeReader_CannotReadFromStream" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream cannot be read.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeReader_IsClosed" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The DimeReader object is closed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "DimeReader"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeReader_PreviousRecordStreamStillOpened" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream of the previous record is still open.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_ContentLengthExceeded" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The number of bytes written exceed the specified content length.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_DataTypeIsOnlyForTheFirstChunk" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The record data type can be specified only in the first chunk.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_DataTypeNotSupported" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A record has a '{0}' data type, which is unsupported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_DataTypeShouldBeSpecifiedOnTheFirstChunk" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The record data type must be specified in the first chunk.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_EncodedTypeLengthExceeds8191" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The length of the encoded type exceeds 8191 bytes.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_IDIsOnlyForFirstChunk" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A record header can have an ID only for the first chunk.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_InvalidChunkSize" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The chunk size must be greater than 0.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_InvalidContentLength" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The ContentLength property must be -1 for a chunked DIME message. Otherwise, ContentLength must be positive.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "ContentLength"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_InvalidHeaderFlags" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The header combination is not valid: BeginOfMessage='{0}', EndOfMessage='{1}', Chunked='{2}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}", "{2}", "BeginOfMessage", "EndOfMessage"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_InvalidUriFormat" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The '{0}' URI format is not valid.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_MediaTypeNotDefined" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The MediaType property must be defined.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "MediaType"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_NameMustNotBeDefinedForFormatNone" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The type name must not be defined if the type format is set to None.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_OffsetAndCountShouldBePositive" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The offset and the count must both be greater than or equal to 0. ]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_OnlySingleRecordMessagesAreSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A message with multiple records was encountered. Only single-record messages are supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_PropertyOnlyAvailableForReadRecords" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The property is supported only while a record is being read.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_ReadNotAllowed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: Read operations are not allowed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_ReservedFlagShouldBeZero" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A record with the reserved flag '{0}' was encountered. Only a value of 0 is supported in this version.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_StreamIsClosed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream is closed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_StreamShouldBeReadable" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream cannot be read.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_StreamShouldBeWriteable" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream cannot be written to.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_TypeFormatEnumUnchangedNotAllowed" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The typeFormat parameter cannot be set to TypeFormatEnum.Unchanged.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "typeFormat", "TypeFormatEnum.Unchanged"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_TypeFormatShouldBeMedia" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A chunk with the '{0}' type format was encountered. The type format must be Media (value 0x01) for the first chunk.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_TypeFormatShouldBeUnchanged" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: A chunk with the '{0}' type format was encountered. The type format must be Unchanged (value 0x00) for a chunk other than the first chunk.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_UnableToReadFromStream" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The required bytes cannot be read from the stream.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeRecord_VersionNotSupported" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The '{0}' DIME version is not supported. Only version 1 is supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DimeRecord_WriteNotAllowed" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: Write operations are not allowed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeWriter_CannotWriteToStream" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The stream cannot be written to.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeWriter_InvalidDefaultChunkSize" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The default chunk size must be greater than zero.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";DimeWriter_WriterIsClosed" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: The DimeWriter object is closed.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="DimeWriter"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Dime_DataTypeNotSupported" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[DIME protocol error: This version of DIME does not support the '{0}' data type.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";DirectoryNotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA["Directory '{0}' does not exist."]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";EmptyRootIsNotEmpty" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The root element must be empty.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorCodeIsMissingFromDatasetError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The data set error is missing an error code.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ErrorCodeIsMissingFromRowsetError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The rowset error is missing an error code.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ExceptionRequiresXmlaErrorsInMessagesSection" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The engine returned an exception, but an error does not appear in the Messages section.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";HttpStream_ASAzure_TechnicalDetailsText" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[]D;]A;]D;]A;Technical Details:]D;]A;RootActivityId: {0}]D;]A;Date (UTC): {1}]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IXMLAInterop_OnlyZeroOffsetIsSupported" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Only a zero offset is supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IXMLAInterop_StreamCannotBeCloned" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The stream cannot be cloned.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IXMLAInterop_StreamDoesNotSupportLocking" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The stream does not support the LockRegion method.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "LockRegion"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";IXMLAInterop_StreamDoesNotSupportReverting" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The stream does not support Revert method.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";IXMLAInterop_StreamDoesNotSupportUnlocking" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The stream does not support the UnlockRegion method.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "UnlockRegion"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";Instance_NotFound" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' instance was not found on the '{1}' server.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";InternalError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Internal error.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InternalErrorAndInvalidBufferType" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Internal error. Unexpected security buffer data type.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";InvalidArgument" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid argument.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";LocalCube_FileNotOpened" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' local cube file cannot be opened.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";MessagesSectionIsEmpty" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The engine returned an empty Messages section.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";MissingElement" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The '{0}' element in the '{1}' namespace is expected.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";NonSequentialColumnAccessError" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Columns must be accessed in sequential order when the CommandBehavior property is set to SequentialAccess.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";NotConnected" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The client is not connected.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProvidePath" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Path should be provided.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Reconnect_ConnectionInfoIsMissing" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[A connection cannot be reestablished because the connection properties were either lost when the connection was terminated or were not set.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Reconnect_SessionIDIsMissing" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The session was either lost or was never established.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";Resultset_IsNotRowset" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The result set returned by the server is not a rowset.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ServerDidNotProvideErrorInfo" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The server did not provide extended error information.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SoapFormatter_ResponseIsNotDataset" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The response is not in data set format.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";SoapFormatter_ResponseIsNotRowset" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The response is not in rowset format.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";TcpStream_MaxSignatureExceedsProtocolLimit" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The maximum signature size exceeds the protocol limit.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";UnexpectedElement" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The '{0}' element is unexpected in the '{1}' namespace.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}", "{1}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";UnexpectedXsiType" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The '{0}' xsi type is not expected.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";UnknownServerResponseFormat" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The server sent an unrecognizable response.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";UnrecognizedElementInMessagesSection" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[XML for Analysis protocol error: The '{0}' element in the Messages section is unrecognized.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder = "{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";UnsupportedDataFormat" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsupported data format : {0}]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";UnsupportedMethod" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} is not supported.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="{0}"} {NoLocRule}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";XmlaClient_CannotConnectToLocalCubeWithRestictedClient" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot connect to local cube since the 'Restricted Client' property is set to 'true'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_ConnectTimedOut" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The connection timed out.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_PbiPremium_WorkspaceNameDuplicated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified Power BI workspace name has conflict with other workspace names. Pls. use "[workspaceName]5D;-[objectIdGuid]5D;" to address the workspace.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_PbiPremium_WorkspaceNotFound" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified Power BI workspace is not found.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_PbiPremium_WorkspaceNotOnPremium" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified Power BI workspace is not a premium workspce.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_PbiPublicXmla_InvalidDataSourceUriFormat" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The specified datasource uri '{0}' is with invalid format.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_SendRequest_NoRequestWasCreated" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The request was not created.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_SendRequest_RequestStreamCannotBeRead" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The request stream cannot be read.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_SendRequest_ThereIsAnotherPendingResponse" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An open response reader already exists.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_StartRequest_ThereIsAnotherPendingRequest" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An open request writer already exists.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";XmlaClient_StartRequest_ThereIsAnotherPendingResponse" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An open response reader already exists.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+  <Item ItemId=";Version" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Ver" Disp="true" LocTbl="false" Path=" \ ;Version \ 8 \ 0" />
+    <Item ItemId=";AssemblyVersion" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text" DevLk="true">
+        <Val><![CDATA[15.0.0.0]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";Comments" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[ADOMD.NET]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+      <Cmts>
+        <Cmt Name="LcxAdmin"><![CDATA[{Placeholder="ADOMD.Net"}]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId=";CompanyName" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Microsoft Corporation]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";FileDescription" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[ADOMD.NET]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+      <Cmts>
+        <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId=";FileVersion" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text" DevLk="true">
+        <Val><![CDATA[15.0.15.6]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";InternalName" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text" DevLk="true">
+        <Val><![CDATA[Microsoft.AnalysisServices.AdomdClient.dll]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";LegalCopyright" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Microsoft. All rights reserved.]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";LegalTrademarks" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Microsoft Analysis Services is a registered trademark of Microsoft Corporation.]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";OriginalFilename" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text" DevLk="true">
+        <Val><![CDATA[Microsoft.AnalysisServices.AdomdClient.dll]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";ProductName" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Microsoft Analysis Services]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+    <Item ItemId=";ProductVersion" ItemType="0" PsrId="211" Leaf="true">
+      <Str Cat="Text" DevLk="true">
+        <Val><![CDATA[15.16.0.0]]></Val>
+      </Str>
+      <Disp Icon="Str" />
+    </Item>
+  </Item>
+  <Item ItemId=";XML" ItemType="0" PsrId="210" Leaf="true">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+  </Item>
+  <Item ItemId=";Version" ItemType="8" PsrId="211" Leaf="true">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+  </Item>
+</LCX>
