@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LCX SchemaVersion="6.0" Name="d:\dbs\sh\uikp\0320_020037_0\cmd\2\obj\x86retail\sql\picasso\objectmodels\projects\core\microsoft.analysisservices.core.csproj\Microsoft.AnalysisServices.Core.dll" PsrId="211" FileType="1" SrcCul="en-US" TgtCul="es-ES" Desc="Commenting file created by LCXAdmin. For more information, please visit http://localizability/longhorn/LcxAdmin.asp" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
   <OwnedComments>
-    <Cmt Name="Dev -- es-ES lfs testing -5 -- test on 7/19" />
+    <Cmt Name="Dev -- github testing on 10/21" />
     <Cmt Name="LcxAdmin" />
     <Cmt Name="Rccx" />
   </OwnedComments>
